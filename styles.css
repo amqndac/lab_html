@@ -8,3 +8,17 @@ html{
 h1, h2, h3, h4{
   font-family: "Copperplate", "Papyrus", fantasy;
 }
+
+body {
+  background-image: url("assets/cakebkg.png");
+}
+
+.text-background {
+  background-color: #f0e4d1; /* Choose any color */
+  border-radius: 8px;       /* Optional: rounded corners */
+  display: block;    /* Optional: shrink to fit text */
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
